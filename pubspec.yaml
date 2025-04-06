@@ -1,0 +1,38 @@
+name: little_penguin
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_gif: ^0.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+     - assets/images/penguin_logo.png
+     - assets/images/penguin_blue.png
+     - assets/images/penguin_strawberry.png
+     - assets/images/penguin_kitty.png
+     - assets/images/penguin_red.png
+     - assets/images/penguin_yellow.png
+     - assets/images/snowman.png
+     - assets/images/snowman_blue.png
+     - assets/images/goodResult.png
+     - assets/images/badResult.png
+
